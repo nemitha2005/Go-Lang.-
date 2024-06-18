@@ -50,5 +50,7 @@ func main() {
     var myString1 string = "Hello \tWorld!"
     fmt.Println(myString1)//tab space
 
-    
+    fmt.Println(len("test12"))//Showing byte length
+
+    fmt.Println("Hello" + "World")//Concatenation
 }
